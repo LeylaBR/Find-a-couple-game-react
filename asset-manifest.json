@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Find-a-couple-game-react/static/css/main.232ab005.css",
-    "main.js": "/Find-a-couple-game-react/static/js/main.423cd1b8.js",
+    "main.js": "/Find-a-couple-game-react/static/js/main.ca1aa801.js",
     "static/js/787.69f17fbc.chunk.js": "/Find-a-couple-game-react/static/js/787.69f17fbc.chunk.js",
     "static/media/firework.gif": "/Find-a-couple-game-react/static/media/firework.b997310a49e2f8c4a4de.gif",
     "static/media/blackberry.png": "/Find-a-couple-game-react/static/media/blackberry.18322557343922a104c7.png",
@@ -21,11 +21,11 @@
     "static/media/lemon.png": "/Find-a-couple-game-react/static/media/lemon.ec73745b663323876313.png",
     "index.html": "/Find-a-couple-game-react/index.html",
     "main.232ab005.css.map": "/Find-a-couple-game-react/static/css/main.232ab005.css.map",
-    "main.423cd1b8.js.map": "/Find-a-couple-game-react/static/js/main.423cd1b8.js.map",
+    "main.ca1aa801.js.map": "/Find-a-couple-game-react/static/js/main.ca1aa801.js.map",
     "787.69f17fbc.chunk.js.map": "/Find-a-couple-game-react/static/js/787.69f17fbc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.232ab005.css",
-    "static/js/main.423cd1b8.js"
+    "static/js/main.ca1aa801.js"
   ]
 }
