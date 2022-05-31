@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Find-a-couple-game-react/static/css/main.232ab005.css",
+    "main.js": "/Find-a-couple-game-react/static/js/main.423cd1b8.js",
+    "static/js/787.69f17fbc.chunk.js": "/Find-a-couple-game-react/static/js/787.69f17fbc.chunk.js",
+    "static/media/firework.gif": "/Find-a-couple-game-react/static/media/firework.b997310a49e2f8c4a4de.gif",
+    "static/media/blackberry.png": "/Find-a-couple-game-react/static/media/blackberry.18322557343922a104c7.png",
+    "static/media/grape.png": "/Find-a-couple-game-react/static/media/grape.81884852adac9d94bb0d.png",
+    "static/media/lime.png": "/Find-a-couple-game-react/static/media/lime.cf259ea1c8b4b3a6a7d3.png",
+    "static/media/pear.png": "/Find-a-couple-game-react/static/media/pear.d07694619d64bdd134af.png",
+    "static/media/rambutan.png": "/Find-a-couple-game-react/static/media/rambutan.8c4d63cf2520f8a5b596.png",
+    "static/media/figs.png": "/Find-a-couple-game-react/static/media/figs.af6a8208b4dad1687bd9.png",
+    "static/media/pineapple.png": "/Find-a-couple-game-react/static/media/pineapple.f961a1f4e79fa81d06e4.png",
+    "static/media/raspberry.png": "/Find-a-couple-game-react/static/media/raspberry.1eb310ae34e99f395927.png",
+    "static/media/orange.png": "/Find-a-couple-game-react/static/media/orange.5afe810f2cb6464680f1.png",
+    "static/media/papaya.png": "/Find-a-couple-game-react/static/media/papaya.8631d538a812ec93e66d.png",
+    "static/media/avocado.png": "/Find-a-couple-game-react/static/media/avocado.2e90fe7aaed24c927d7a.png",
+    "static/media/mango.png": "/Find-a-couple-game-react/static/media/mango.0fb1076a553d01ec4bf8.png",
+    "static/media/pomegranate.png": "/Find-a-couple-game-react/static/media/pomegranate.eac48f55f02d312d7882.png",
+    "static/media/wrapper.jpg": "/Find-a-couple-game-react/static/media/wrapper.7e506755d20479b3d8c9.jpg",
+    "static/media/lemon.png": "/Find-a-couple-game-react/static/media/lemon.ec73745b663323876313.png",
+    "index.html": "/Find-a-couple-game-react/index.html",
+    "main.232ab005.css.map": "/Find-a-couple-game-react/static/css/main.232ab005.css.map",
+    "main.423cd1b8.js.map": "/Find-a-couple-game-react/static/js/main.423cd1b8.js.map",
+    "787.69f17fbc.chunk.js.map": "/Find-a-couple-game-react/static/js/787.69f17fbc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.232ab005.css",
+    "static/js/main.423cd1b8.js"
+  ]
+}
