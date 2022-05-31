@@ -1,0 +1,180 @@
+body {
+  background: url(./img/wrapper.jpg);
+  background-size: cover;
+  user-select: none;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  border: 7px solid gainsboro;
+  backdrop-filter: contrast(0.5);
+  border-radius: 72px;
+  margin-bottom: 20px;
+}
+
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 62vw;
+  max-height: 30vw;
+  justify-content: center;
+  align-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  height: 6vw;
+  width: 6vw;
+  border: 1px solid;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: white;
+  transition: 0.5s;
+  opacity: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 1px -1px 45px -1px black;
+}
+
+.card::after {
+  content: "";
+  background: url("./img/closeCard2.png") center center/contain no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  width: 5vw;
+  height: 5vw;
+}
+
+.card.active {
+  animation: open 0.5s;
+}
+
+@keyframes open {
+  from {
+    transform: rotateY(90deg);
+  }
+
+  to {
+    transform: rotateY(0deg);
+  }
+}
+
+.card.closeCard {
+  animation: close 0.5s;
+}
+
+@keyframes close {
+  from {
+    transform: rotateY(90deg);
+  }
+
+  to {
+    transform: rotateY(0deg);
+  }
+}
+
+.card.active::after {
+  opacity: 0;
+}
+
+.card.active .openCard {
+  opacity: 1;
+}
+
+.openCard {
+  max-width: 5vw;
+  max-height: 5vw;
+  opacity: 0;
+}
+
+.end {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: none;
+}
+
+.finish {
+  display: inline-flex;
+}
+
+.endText {
+  color: yellow;
+  font-size: 75px;
+  position: absolute;
+  top: 101px;
+  text-transform: uppercase;
+}
+
+.close {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 80px;
+  top: 50px;
+  cursor: pointer;
+}
+
+.close:hover {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.closeLeft {
+  width: 45px;
+  background: red;
+  height: 5px;
+  position: absolute;
+  top: 22px;
+  transform: rotate(45deg);
+  right: 8px;
+}
+
+.closeRight {
+  width: 45px;
+  background: red;
+  height: 5px;
+  position: absolute;
+  top: 22px;
+  transform: rotate(-45deg);
+  right: 8px;
+}
+
+.restart {
+  padding: 0.5vw 4vw;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid white;
+  border-radius: 15px;
+  font-size: 2vw;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.restart:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
